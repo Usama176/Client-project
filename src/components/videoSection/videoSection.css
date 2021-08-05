@@ -1,0 +1,202 @@
+/* Styling Video Js Video Player */
+/* These classes are from video.js docs */
+.video-js {
+    width: 100%;
+    height: 80vh !important;
+}
+
+.vjs-poster {
+    background-size: cover !important;
+    object-fit: cover !important;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.295);
+}
+
+video[poster] {
+    object-fit: fill;
+    background-color: transparent;
+}
+
+.video-js .vjs-big-play-button {
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    font-size: 32px;
+    text-align: center !important;
+    color: rgba(68, 68, 68, 0.658);
+    background-color: #FFFFFF !important;
+    border-radius: 50%;
+}
+
+.videoSecTxtBtnCont {
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 100px;
+    left: 110px;
+}
+
+.videoSecText {
+    font-size: 20px;
+    color: #ffff;
+}
+
+.videoSecBtn {
+    color: #ffff;
+    background-color: #08ae9e;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 40px;
+    box-shadow: 0px 1px 4px black;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1150px) {
+    .videoSecTxtBtnCont {
+        width: 250px;
+        left: 80px;
+    }
+
+    .videoSecBtn {
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .videoSecText {
+        font-size: 18px;
+        color: #ffff;
+    }
+
+    .videoSecTxtBtnCont {
+        width: 250px;
+        height: 50%;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    .videoSecText {
+        font-size: 17px;
+        color: #ffff;
+    }
+
+    .videoSecTxtBtnCont {
+        width: 250px;
+        left: 50px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .videoSecTxtBtnCont {
+        left: 20px;
+    }
+
+    .videoSecText {
+        font-size: 14px;
+        color: #ffff;
+    }
+
+    .videoSecBtn {
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 11px;
+    }
+}
+
+
+
+@media screen and (max-height: 500px) {
+    .videoSecTxtBtnCont {
+        width: 50%;
+        height: 300px;
+        left: 10px;
+        top: 20px;
+    }
+
+    .videoSecText {
+        font-size: 9px;
+        color: #ffff;
+    }
+
+    .videoSecBtn {
+        padding: 4px 10px;
+        border-radius: 5px;
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .video-js {
+        width: 100%;
+        height: 50vh !important;
+    }
+
+    .videoSecTxtBtnCont {
+        left: 10px;
+        top: 20px;
+        height: 300px;
+        bottom: 0;
+    }
+
+    .videoSecText {
+        font-size: 9px;
+        color: #ffff;
+    }
+
+    .videoSecBtn {
+        padding: 4px 10px;
+        border-radius: 5px;
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .videoSecTxtBtnCont {
+        display: none;
+    }
+
+    .video-js .vjs-big-play-button {
+        margin-left: -20px;
+    }    
+}
+
+@media screen and (min-height: 1050px) {
+    .videoSecTxtBtnCont {
+        width: 25%;
+        top: 300px !important;
+    }
+}
+
+@media screen and (min-height: 900px) {
+    .videoSecTxtBtnCont {
+        width: 30%;
+        top: 200px;
+    }
+}
+
+@media screen and (max-height: 900px) {
+    .videoSecTxtBtnCont {
+        width: 30%;
+    }
+}
+
+@media screen and (max-height: 530px) {
+    .video-js {
+        height: 100vh !important;
+    }    
+}
+
+@media screen and (max-height: 480px) {
+    .videoSecTxtBtnCont {
+        display: none;
+    }
+}

@@ -1,0 +1,76 @@
+.carouselContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carouselContainer > .sectionTitle {
+    margin-bottom: 40px;
+}
+
+.carousel {
+    width: 67%;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dotGroup {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border: none;
+    outline: none;
+    margin: 20px auto;
+}
+/* this class is taken form the documentation of "pure-react-carousel" */
+/* it is for the dots*/
+.dotGroup > .carousel__dot {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #CCCCCC;
+    border: none;
+    outline: none;
+    margin: 4px;
+}
+/* this class is taken form the documentation of "pure-react-carousel" */
+/* it is for the dots it will be applied to the selected dot */
+.dotGroup > .carousel__dot--selected {
+    background-color: #08AE9E !important;
+}
+
+@media screen and (max-width: 920px) {
+    .carousel {
+        width: 80%;
+    }
+
+    .dotGroup {
+        margin: 15px auto;
+    }
+
+    .dotGroup > .carousel__dot {
+        width: 15px;
+        height: 15px;
+        margin: 2px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .carousel {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .carouselContainer > .sectionTitle {
+        margin-bottom: 30px;
+    }
+    
+    .carousel {
+        width: 100%;
+    }
+}

@@ -1,0 +1,40 @@
+.reviewsContainer {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.clientReview {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.clientInfo {
+    font-size: 17px;
+    color: #707070;
+    margin: 7px auto;
+}
+
+@media screen and (max-width: 920px) {
+    .clientReview {
+        font-size: 19px;
+        margin-bottom: 23px;
+    }
+
+    .clientInfo {
+        font-size: 16px;
+        margin: 5px auto;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .clientReview {
+        font-size: 18px;
+        margin-bottom: 23px;
+    }
+}

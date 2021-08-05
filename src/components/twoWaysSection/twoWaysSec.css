@@ -1,0 +1,147 @@
+.secFour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secFourBody {
+    height: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secFourTextCont {
+    width: 47%;
+    height: 100% !important;
+    display: flex;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.151);
+}
+
+.secFourIcon {
+    width: 55px;
+    height: 55px;
+    margin: 0 10px;
+}
+
+.secFourText {
+    margin: 0 15px;
+}
+
+.secFourHeading {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 2.2;
+}
+
+.secFourPara {
+    font-size: 15px;
+    font-weight: 400;
+    color: #AEA9A9;
+    line-height: 1.4;
+}
+
+.secFourBtn {
+    width: 22%;
+    padding: 18px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #08AE9E;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.151);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.secFourBtn:hover {
+    transform: translateY(-5px);
+}
+
+@media screen and (max-width: 1030px){
+    .secFourBody {
+        height: 250px;
+    }
+
+    .secFourBtn {
+        font-size: 17px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .secFourBody {
+        height: 250px;
+    }
+
+    .secFourTextCont {
+        width: 48%;
+        height: 100% !important;
+        padding: 30px 10px;
+    }
+
+    .secFourIcon {
+        width: 45px;
+        height: 45px;
+        margin: 0 5px;
+    }
+
+    .secFourHeading {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 2.2;
+    }
+
+    .secFourPara {
+        font-size: 15px;
+    }
+
+    .secFourBtn {
+        font-size: 16px;
+        padding: 16px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .secFourBody {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .secFourTextCont {
+        width: 100%;
+        height: 100% !important;
+        display: flex;
+        padding: 30px 10px;
+        margin: 10px 0;
+    }
+    
+    .secFourIcon {
+        width: 50px;
+        height: 50px;
+        margin: 0 10px;
+    }
+
+    .secFourBtn {
+        width: 50%;
+        padding: 12px 18px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .secFourBtn {
+        width: 100%;
+        padding: 12px 18px;
+        margin-top: 30px;
+    }
+}

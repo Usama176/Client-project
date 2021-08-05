@@ -1,0 +1,119 @@
+.accordionsContainer {
+    margin: 50px 0 !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.accordionCont {
+    width: 47%;
+}
+
+.accordion {
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 5px !important;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.151) !important;
+}
+
+.expandMoreIcon {
+    color: #000000;
+    font-size: 27px;
+}
+
+.accordionHeader {
+    padding: 10px 15px!important;
+}
+
+.accordionHeading {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.accordionDetail {
+    padding: 0 20px 50px 30px!important;
+    margin-top: -15px;
+}
+
+.accordionPara {
+    color: #707070;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 2;
+}
+
+@media screen and (max-width: 950px) {
+    .accordion {
+        margin: 15px 0;
+    }
+    
+    .expandMoreIcon {
+        font-size: 25px;
+    }
+    
+    .accordionHeader {
+        padding: 8px 13px!important;
+    }
+    
+    .accordionHeading {
+        font-size: 16px;
+        margin-left: 7px;
+    }
+    
+    .accordionDetail {
+        padding: 0 15px 30px 20px!important;
+        margin-top: -15px;
+    }
+    
+    .accordionPara {
+        color: #707070;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 2;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .accordionCont {
+        width: 48%;
+    }
+    
+    .accordion {
+        margin: 12px 0;
+    }
+    
+    .expandMoreIcon {
+        font-size: 20px;
+    }
+    
+    .accordionHeader {
+        padding: 7px 10px!important;
+    }
+    
+    .accordionHeading {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+    
+    .accordionDetail {
+        padding: 0 10px 20px 15px!important;
+        margin-top: -15px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .accordionsContainer {
+        margin: 50px 0 !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .accordionCont {
+        width: 100%;
+    }
+}
