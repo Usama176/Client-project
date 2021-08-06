@@ -323,10 +323,3 @@
         display: none;
     }
 }
-
-/* Section Containers Hieght Control */
-@media screen and (max-height: 620px){
-    .howItWorks_Conts {
-        height: 50vh;
-    }
-}

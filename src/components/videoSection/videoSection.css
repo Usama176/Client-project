@@ -6,20 +6,20 @@
 }
 
 .vjs-poster {
+    background-color: rgba(0, 0, 0, 0.295);
+    background-blend-mode: color;
     background-size: cover !important;
     object-fit: cover !important;
-    background-blend-mode: color;
-    background-color: rgba(0, 0, 0, 0.295);
 }
 
 video[poster] {
-    object-fit: fill;
     background-color: transparent;
+    object-fit: fill;
 }
 
 .video-js .vjs-big-play-button {
-    height: 50px;
     width: 50px;
+    height: 50px;
     margin: 0 auto;
     font-size: 32px;
     text-align: center !important;
@@ -73,7 +73,6 @@ video[poster] {
 @media screen and (max-width: 950px) {
     .videoSec_Text {
         font-size: 18px;
-        color: #ffff;
     }
 
     .videoSec_TxtBtnCont {
@@ -86,7 +85,6 @@ video[poster] {
 @media screen and (max-width: 850px) {
     .videoSec_Text {
         font-size: 17px;
-        color: #ffff;
     }
 
     .videoSec_TxtBtnCont {
@@ -102,17 +100,14 @@ video[poster] {
 
     .videoSec_Text {
         font-size: 14px;
-        color: #ffff;
     }
 
     .videoSec_Btn {
+        font-size: 11px;
         padding: 5px 10px;
         border-radius: 5px;
-        font-size: 11px;
     }
 }
-
-
 
 @media screen and (max-height: 500px) {
     .videoSec_TxtBtnCont {
@@ -141,21 +136,46 @@ video[poster] {
     }
 
     .videoSec_TxtBtnCont {
+        width: 40% !important;
+        height: 300px;
+        top: 20px;
+        bottom: 0;
+        left: 10px;
+    }
+
+    .videoSec_Text {
+        font-size: 12px;
+    }
+
+    .videoSec_Btn {
+        font-size: 12px;
+        padding: 5px 10px;
+        margin-top: 7px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .video-js {
+        width: 100%;
+        height: 50vh !important;
+    }
+
+    .videoSec_TxtBtnCont {
+        width: 40% !important;
+        height: 300px;
         left: 10px;
         top: 20px;
-        height: 300px;
         bottom: 0;
     }
 
     .videoSec_Text {
-        font-size: 9px;
-        color: #ffff;
+        font-size: 11px;
     }
 
     .videoSec_Btn {
+        font-size: 11px;
         padding: 4px 10px;
-        border-radius: 5px;
-        font-size: 9px;
+        margin-top: 7px;
     }
 }
 
