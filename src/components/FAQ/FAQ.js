@@ -27,12 +27,12 @@ const FAQ = () => {
                       expandIcon={<FontAwesomeIcon icon={faAngleDown} className="expandMoreIcon"/>}
                       aria-controls="panel1a-content"
                       id="panel1a-header"
-                      className="accordionHeader"
+                      className="accordion_Header"
                       >
-                      <h3 className="accordionHeading">{faq.question}</h3>
+                      <h3 className="accordion_Heading">{faq.question}</h3>
                       </AccordionSummary>
-                      <AccordionDetails className="accordionDetail">
-                      <p className="accordionPara">{faq.answer}</p>
+                      <AccordionDetails className="accordion_Detail">
+                      <p className="accordion_Para">{faq.answer}</p>
                       </AccordionDetails>
                   </Accordion>
                 </div>

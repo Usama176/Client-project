@@ -10,50 +10,49 @@ import TwitterIcon from '../../assets/icons/twitter.png';
 
 const Footer = () => {
     return (
-        <div className="footerContainer">
-            
-            <div className="footerBody">
-                <div className="footerSecOne">
-                    <div className="footerIconTextCont">
+        <div className="footer_Container">
+            <div className="footer_Body">
+                <div className="footer_SecOne">
+                    <div className="footer_IconTextCont">
                         <div className="iconCont">
-                            <img src={HeadphoneIcon} className="footerIcon" alt=""/>
+                            <img src={HeadphoneIcon} className="footer_Icon" alt=""/>
                         </div>
                         <span className="iconText">24/7 customer support</span>
                     </div>
-                    <div className="footerIconTextCont">
+                    <div className="footer_IconTextCont">
                         <div className="iconCont">
-                            <img src={GroupIcon} className="footerIcon" alt=""/>
+                            <img src={GroupIcon} className="footer_Icon" alt=""/>
                         </div>
                         <span className="iconText">Great artist guarantee</span>
                     </div>
-                    <div className="footerIconTextCont">
+                    <div className="footer_IconTextCont">
                         <div className="iconCont">
-                            <img src={VerifiedIcon} className="footerIcon" alt=""/>
+                            <img src={VerifiedIcon} className="footer_Icon" alt=""/>
                         </div>
                         <span className="iconText">Verified ID</span>
                     </div>
                 </div>
-                <hr className="footerDivider"/>
-                <div className="footerSecTwo">
-                    <div className="footerTextLinks">
+                <hr className="footer_Divider"/>
+                <div className="footer_SecTwo">
+                    <div className="footer_TextLinks">
                         <div className="linkCont">
                             <h4 className="linkHeading">ArtsPassage</h4>
-                            <Link to="" className="footerLink">About</Link>
-                            <Link to="" className="footerLink">Contact us</Link>
+                            <Link to="" className="footer_Link">About</Link>
+                            <Link to="" className="footer_Link">Contact us</Link>
                         </div>
                         <div className="linkCont">
                             <h4 className="linkHeading">Discover</h4>
-                            <Link to="" className="footerLink">Trust & Safety</Link>
-                            <Link to="" className="footerLink">Travel Credit</Link>
+                            <Link to="" className="footer_Link">Trust & Safety</Link>
+                            <Link to="" className="footer_Link">Travel Credit</Link>
                         </div>
                         <div className="linkCont">
                             <h4 className="linkHeading">Artist</h4>
-                            <Link to="" className="footerLink">Become an Artist</Link>
-                            <Link to="" className="footerLink">Terms & Privacy</Link>
+                            <Link to="" className="footer_Link">Become an Artist</Link>
+                            <Link to="" className="footer_Link">Terms & Privacy</Link>
                         </div>
                     </div>
-                    <div className="footerSocialLinksCont">
-                        <div className="footerSocialLinks">
+                    <div className="footer_SocialLinksCont">
+                        <div className="footer_SocialLinks">
                             <a href="#">
                                 <img src={FacebookIcon} className="socialIcon" alt=""/>
                             </a>
@@ -64,7 +63,7 @@ const Footer = () => {
                                 <img src={TwitterIcon} className="socialIcon" alt=""/>
                             </a>
                         </div>
-                        <span className="footerCopyright">© ArtsPassage</span>
+                        <span className="footer_Copyright">© ArtsPassage</span>
                     </div>
                 </div>
             </div>

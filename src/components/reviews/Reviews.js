@@ -3,10 +3,10 @@ import './reviews.css';
 
 const Reviews = (props) => {
     return (
-        <div className="reviewsContainer">
-            <h3 className="clientReview">{props.review}</h3>
-            <span className="clientInfo">{props.name},</span>
-            <span className="clientInfo">{props.city}</span>
+        <div className="reviews_Container">
+            <h3 className="client_Review">{props.review}</h3>
+            <span className="client_Info">{props.name},</span>
+            <span className="client_Info">{props.city}</span>
         </div>
     );
 }

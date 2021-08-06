@@ -1,10 +1,10 @@
-.carouselContainer {
+.carousel_Container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.carouselContainer > .sectionTitle {
+.carousel_Container > .sectionTitle {
     margin-bottom: 40px;
 }
 
@@ -66,7 +66,7 @@
 }
 
 @media screen and (max-width: 550px) {
-    .carouselContainer > .sectionTitle {
+    .carousel_Container > .sectionTitle {
         margin-bottom: 30px;
     }
     

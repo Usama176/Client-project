@@ -1,17 +1,17 @@
-.secFour {
+.twoWaysSec {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.secFourBody {
+.twoWaysSec_Body {
     height: 195px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.secFourTextCont {
+.twoWaysSec_TextCont {
     width: 47%;
     height: 100% !important;
     display: flex;
@@ -20,30 +20,30 @@
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.151);
 }
 
-.secFourIcon {
+.twoWaysSec_Icon {
     width: 55px;
     height: 55px;
     margin: 0 10px;
 }
 
-.secFourText {
+.twoWaysSec_Text {
     margin: 0 15px;
 }
 
-.secFourHeading {
+.twoWaysSec_Heading {
     font-size: 19px;
     font-weight: 700;
     line-height: 2.2;
 }
 
-.secFourPara {
+.twoWaysSec_Para {
     font-size: 15px;
     font-weight: 400;
     color: #AEA9A9;
     line-height: 1.4;
 }
 
-.secFourBtn {
+.twoWaysSec_Btn {
     width: 22%;
     padding: 18px;
     margin-top: 40px;
@@ -60,56 +60,56 @@
     transition: all 0.3s ease-in-out;
 }
 
-.secFourBtn:hover {
+.twoWaysSec_Btn:hover {
     transform: translateY(-5px);
 }
 
 @media screen and (max-width: 1030px){
-    .secFourBody {
+    .twoWaysSec_Body {
         height: 250px;
     }
 
-    .secFourBtn {
+    .twoWaysSec_Btn {
         font-size: 17px;
         width: auto;
     }
 }
 
 @media screen and (max-width: 850px){
-    .secFourBody {
+    .twoWaysSec_Body {
         height: 250px;
     }
 
-    .secFourTextCont {
+    .twoWaysSec_TextCont {
         width: 48%;
         height: 100% !important;
         padding: 30px 10px;
     }
 
-    .secFourIcon {
+    .twoWaysSec_Icon {
         width: 45px;
         height: 45px;
         margin: 0 5px;
     }
 
-    .secFourHeading {
+    .twoWaysSec_Heading {
         font-size: 18px;
         font-weight: 700;
         line-height: 2.2;
     }
 
-    .secFourPara {
+    .twoWaysSec_Para {
         font-size: 15px;
     }
 
-    .secFourBtn {
+    .twoWaysSec_Btn {
         font-size: 16px;
         padding: 16px;
     }
 }
 
 @media screen and (max-width: 750px){
-    .secFourBody {
+    .twoWaysSec_Body {
         height: auto;
         display: flex;
         flex-direction: column;
@@ -117,7 +117,7 @@
         justify-content: center;
     }
     
-    .secFourTextCont {
+    .twoWaysSec_TextCont {
         width: 100%;
         height: 100% !important;
         display: flex;
@@ -125,13 +125,13 @@
         margin: 10px 0;
     }
     
-    .secFourIcon {
+    .twoWaysSec_Icon {
         width: 50px;
         height: 50px;
         margin: 0 10px;
     }
 
-    .secFourBtn {
+    .twoWaysSec_Btn {
         width: 50%;
         padding: 12px 18px;
         margin-top: 30px;
@@ -139,7 +139,7 @@
 }
 
 @media screen and (max-width: 500px){
-    .secFourBtn {
+    .twoWaysSec_Btn {
         width: 100%;
         padding: 12px 18px;
         margin-top: 30px;

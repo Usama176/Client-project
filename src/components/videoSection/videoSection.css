@@ -28,7 +28,7 @@ video[poster] {
     border-radius: 50%;
 }
 
-.videoSecTxtBtnCont {
+.videoSec_TxtBtnCont {
     width: 250px;
     height: 300px;
     display: flex;
@@ -39,12 +39,12 @@ video[poster] {
     left: 110px;
 }
 
-.videoSecText {
+.videoSec_Text {
     font-size: 20px;
     color: #ffff;
 }
 
-.videoSecBtn {
+.videoSec_Btn {
     color: #ffff;
     background-color: #08ae9e;
     font-size: 14px;
@@ -59,24 +59,24 @@ video[poster] {
 }
 
 @media screen and (max-width: 1150px) {
-    .videoSecTxtBtnCont {
+    .videoSec_TxtBtnCont {
         width: 250px;
         left: 80px;
     }
 
-    .videoSecBtn {
+    .videoSec_Btn {
         padding: 10px 20px;
         border-radius: 5px;
     }
 }
 
 @media screen and (max-width: 950px) {
-    .videoSecText {
+    .videoSec_Text {
         font-size: 18px;
         color: #ffff;
     }
 
-    .videoSecTxtBtnCont {
+    .videoSec_TxtBtnCont {
         width: 250px;
         height: 50%;
     }
@@ -84,28 +84,28 @@ video[poster] {
 
 
 @media screen and (max-width: 850px) {
-    .videoSecText {
+    .videoSec_Text {
         font-size: 17px;
         color: #ffff;
     }
 
-    .videoSecTxtBtnCont {
+    .videoSec_TxtBtnCont {
         width: 250px;
         left: 50px;
     }
 }
 
 @media screen and (max-width: 700px) {
-    .videoSecTxtBtnCont {
+    .videoSec_TxtBtnCont {
         left: 20px;
     }
 
-    .videoSecText {
+    .videoSec_Text {
         font-size: 14px;
         color: #ffff;
     }
 
-    .videoSecBtn {
+    .videoSec_Btn {
         padding: 5px 10px;
         border-radius: 5px;
         font-size: 11px;
@@ -115,19 +115,19 @@ video[poster] {
 
 
 @media screen and (max-height: 500px) {
-    .videoSecTxtBtnCont {
+    .videoSec_TxtBtnCont {
         width: 50%;
         height: 300px;
         left: 10px;
         top: 20px;
     }
 
-    .videoSecText {
+    .videoSec_Text {
         font-size: 9px;
         color: #ffff;
     }
 
-    .videoSecBtn {
+    .videoSec_Btn {
         padding: 4px 10px;
         border-radius: 5px;
         font-size: 9px;
@@ -140,19 +140,19 @@ video[poster] {
         height: 50vh !important;
     }
 
-    .videoSecTxtBtnCont {
+    .videoSec_TxtBtnCont {
         left: 10px;
         top: 20px;
         height: 300px;
         bottom: 0;
     }
 
-    .videoSecText {
+    .videoSec_Text {
         font-size: 9px;
         color: #ffff;
     }
 
-    .videoSecBtn {
+    .videoSec_Btn {
         padding: 4px 10px;
         border-radius: 5px;
         font-size: 9px;
@@ -160,7 +160,7 @@ video[poster] {
 }
 
 @media screen and (max-width: 340px) {
-    .videoSecTxtBtnCont {
+    .videoSec_TxtBtnCont {
         display: none;
     }
 
@@ -170,21 +170,21 @@ video[poster] {
 }
 
 @media screen and (min-height: 1050px) {
-    .videoSecTxtBtnCont {
+    .videoSec_TxtBtnCont {
         width: 25%;
         top: 300px !important;
     }
 }
 
 @media screen and (min-height: 900px) {
-    .videoSecTxtBtnCont {
+    .videoSec_TxtBtnCont {
         width: 30%;
         top: 200px;
     }
 }
 
 @media screen and (max-height: 900px) {
-    .videoSecTxtBtnCont {
+    .videoSec_TxtBtnCont {
         width: 30%;
     }
 }
@@ -196,7 +196,7 @@ video[poster] {
 }
 
 @media screen and (max-height: 480px) {
-    .videoSecTxtBtnCont {
+    .videoSec_TxtBtnCont {
         display: none;
     }
 }

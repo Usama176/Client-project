@@ -1,21 +1,21 @@
-.footerContainer {
+.footer_Container {
   background-color: #1d1c1c;
   padding: 50px 0;
 }
 
-.footerBody {
+.footer_Body {
   width: 90%;
   margin: 0 auto;
 }
 
-.footerSecOne,
-.footerSecTwo {
+.footer_SecOne,
+.footer_SecTwo {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.footerIconTextCont{
+.footer_IconTextCont{
   display: flex;
   align-items: center;
 }
@@ -30,7 +30,7 @@
   border-radius: 50%;
 }
 
-.footerIcon {
+.footer_Icon {
   width: 40px;
   height: 40px;
   object-fit: contain;
@@ -44,13 +44,13 @@
   margin-right: 15px;
 }
 
-.footerDivider {
+.footer_Divider {
   border: 1px solid #aea9a92a;
   width: 80%;
   margin: 40px auto;
 }
 
-.footerTextLinks {
+.footer_TextLinks {
   width: 70%;
   display: flex;
   align-items: center;
@@ -69,18 +69,18 @@
   margin-bottom: 10px;
 }
 
-.footerLink {
+.footer_Link {
   color: #aea9a9;
   font-size: 16px;
   font-weight: 400;
   margin: 3px 0;
 }
 
-.footerLink:hover {
+.footer_Link:hover {
     color: #a39b9b;
 }
 
-.footerSocialLinks {
+.footer_SocialLinks {
   display: flex;
   justify-content: space-between;
   margin: 7px 0;
@@ -94,7 +94,7 @@
   object-fit: contain;
 }
 
-.footerCopyright {
+.footer_Copyright {
   color: #ffffff;
   font-size: 15px;
 }
@@ -107,7 +107,7 @@
         height: 70px;
     }
     
-    .footerIcon {
+    .footer_Icon {
       width: 35px;
       height: 35px;
     }
@@ -121,7 +121,7 @@
         font-size: 16px;
     }
 
-    .footerLink {
+    .footer_Link {
         font-size: 14px;
         margin: 2px 0;
     }
@@ -133,11 +133,11 @@
 }
 
 @media screen and (max-width: 760px) {
-    .footerSecOne {
+    .footer_SecOne {
         justify-content: space-around;
     }
 
-    .footerIconTextCont{
+    .footer_IconTextCont{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -149,7 +149,7 @@
         height: 50px;
     }
     
-    .footerIcon {
+    .footer_Icon {
       width: 25px;
       height: 250px;
     }
@@ -163,7 +163,7 @@
         font-size: 14px;
     }
 
-    .footerLink {
+    .footer_Link {
         font-size: 13px;
         margin: 2px 0;
     }
@@ -173,14 +173,14 @@
         height: 16px;
     }
 
-    .footerCopyright {
+    .footer_Copyright {
         color: #ffffff;
         font-size: 14px;
     }     
 }
 
 @media screen and (max-width: 500px) {
-    .footerSecOne {
+    .footer_SecOne {
         width: 80%;
         display: flex;
         flex-direction: column;
@@ -189,7 +189,7 @@
         margin: 0 auto;
     }
 
-    .footerIconTextCont{
+    .footer_IconTextCont{
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
@@ -201,7 +201,7 @@
         height: 55px;
     }
     
-    .footerIcon {
+    .footer_Icon {
         width: 27px;
         height: 27px;
         object-fit: contain;
@@ -212,14 +212,14 @@
         margin-left: 13px;
     }
 
-    .footerSecTwo {
+    .footer_SecTwo {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
     }
 
-    .footerTextLinks {
+    .footer_TextLinks {
         width: 100%;
         display: flex;
         align-items: center;
@@ -231,12 +231,12 @@
         margin-bottom: 6px;
     }
 
-    .footerLink {
+    .footer_Link {
         font-size: 12px;
         margin: 1px 0;
     }
 
-    .footerSocialLinks {
+    .footer_SocialLinks {
         justify-content: center;
         margin: 10px 0;
         margin-top: 40px;
@@ -251,18 +251,18 @@
         object-fit: contain;
     }
 
-    .footerCopyright {
+    .footer_Copyright {
         color: #ffffff;
         font-size: 16px;
     }
 }
 
 @media screen and (max-width: 323px) {
-    .footerSecOne {
+    .footer_SecOne {
         width: 90%;
     }
 
-    .footerTextLinks {
+    .footer_TextLinks {
         width: 50%;
         display: flex;
         flex-direction: column;
@@ -277,7 +277,7 @@
         margin-bottom: 6px;
     }
 
-    .footerLink {
+    .footer_Link {
         font-size: 13px;
         text-align: center;
         margin: 1px 0;

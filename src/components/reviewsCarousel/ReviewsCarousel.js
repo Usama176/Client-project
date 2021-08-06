@@ -7,7 +7,7 @@ import 'pure-react-carousel/dist/react-carousel.es.css';
 
 const ReviewsCarousel = () => {
     return (
-        <div className="wrapper carouselContainer">
+        <div className="wrapper carousel_Container">
             <h1 className="sectionTitle">Reviews</h1>
             <CarouselProvider
                 className="carousel"
